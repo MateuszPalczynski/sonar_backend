@@ -1,0 +1,5 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=MateuszPalczynski_sonar_backend&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=MateuszPalczynski_sonar_backend)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=MateuszPalczynski_sonar_backend&metric=bugs)](https://sonarcloud.io/summary/new_code?id=MateuszPalczynski_sonar_backend)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=MateuszPalczynski_sonar_backend&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=MateuszPalczynski_sonar_backend)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=MateuszPalczynski_sonar_backend&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=MateuszPalczynski_sonar_backend)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=MateuszPalczynski_sonar_backend&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=MateuszPalczynski_sonar_backend)
