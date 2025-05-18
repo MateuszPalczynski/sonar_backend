@@ -12,6 +12,9 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 )
 
+const PRODUCTS_ID = "/products/:id"
+
+
 type Product struct {
 	ID          uint      `gorm:"primaryKey" json:"id"`
 	Name        string    `json:"name"`
@@ -69,10 +72,10 @@ func main() {
 
 	// Produkty
 	e.POST("/products", createProduct)
-	e.GET("/products/:id", getProduct)
+	e.GET(PRODUCTS_ID, getProduct)
 	e.GET("/products", getAllProducts)
-	e.PUT("/products/:id", updateProduct)
-	e.DELETE("/products/:id", deleteProduct)
+	e.PUT(PRODUCTS_ID, updateProduct)
+	e.DELETE(PRODUCTS_ID, deleteProduct)
 
 	// Koszyki
 	e.POST("/carts", createCart)
